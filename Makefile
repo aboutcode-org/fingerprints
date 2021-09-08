@@ -1,17 +1,11 @@
 
-all: clean test dists
+all: generate clean test
 
-fetch:
-	python fetch.py
+generate:
+	python tools/generate.py
 
 test:
 	nosetests --with-coverage --cover-package=fingerprints --cover-erase
-
-dists:
-	python setup.py sdist bdist_wheel
-
-release: dists
-	twine upload dist/*
 
 clean:
 	rm -rf dist build .eggs
