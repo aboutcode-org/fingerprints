@@ -1,6 +1,6 @@
 # fingerprints
 
-![package](https://github.com/alephdata/fingerprints/workflows/package/badge.svg)
+**UPDATE 2025-05: the next generation of the `fingerprints` codebase is now included in `rigour`. See the documentation here: https://opensanctions.github.io/rigour/names/. This library is now UNMAINTAINED.**
 
 This library helps with the generation of fingerprints for entity data. A fingerprint
 in this context is understood as a simplified entity identifier, derived from it's
@@ -36,4 +36,7 @@ Wikipedia also maintains an index of [types of business entity](https://en.wikip
 
 * [Clustering in Depth](https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth), part of the OpenRefine documentation discussing how to create collisions in data clustering.
 * [probablepeople](https://github.com/datamade/probablepeople), parser for western names made by the brilliant folks at datamade.us.
+* The study [Developing a Legal Form Classification and Extraction Approach For Company Entity Matching](https://www.tib-op.org/ojs/index.php/bis/article/view/44) by Kruse et al. (2021) investigates four approaches for identifying and classifying legal forms in company names.
+* List of Legal Forms from [AnaCredit dataset](https://www.ecb.europa.eu/stats/ecb_statistics/anacredit/html/index.en.html) by ECB (one of the Annexes).
+* [Transformer-based Entity Legal Form Classification](https://arxiv.org/pdf/2310.12766) by Arimond et al. (2023).
 
